@@ -4,4 +4,5 @@
 
 <p>Current time: <?php echo date('H:i:s'); ?></p>
 
-<a href="page3.html">link to Page3 (added in dev branch directly, not in feature branch)</a>
+<p><a href="page2.php">Go to page 2</a></p>
+<p><a href="page3.html">link to Page3 (added in dev branch directly, not in feature branch)</a></p>
