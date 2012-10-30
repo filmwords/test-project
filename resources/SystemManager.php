@@ -17,7 +17,9 @@ class SystemManager
     */
     public function getInfo() {
         $extArray = get_loaded_extensions();
-        return 'PHP-Version: ' . phpversion() . '<br />Extensions loaded: ' . implode(', ', $extArray);
+	$str = 'PHP-Version: ' . phpversion() . '<br />Extensions loaded: ' . implode(', ', $extArray);
+	$str .= '<br />Mehr Infos hab ich nicht';
+	return $str;
     }
 
 
